@@ -182,5 +182,8 @@ It is designed to help retailers understand not only what sold, but what custome
 
 The competition ended, but the journey did not.
 
+Beyond the results, this experience gave us more than just a project —
+we built ideas, faced real challenges, and created lasting memories together.
+
 What we built here is only the starting point —
 a step toward building better systems, deeper understanding, and meaningful solutions beyond the hackathon.
