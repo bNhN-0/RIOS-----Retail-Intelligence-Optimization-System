@@ -2,8 +2,14 @@
 
 **Retail Intelligence Optimization System (RIOS)** is an end-to-end retail analytics platform that brings together **customer behavior analysis, sales analytics, inventory control, and intelligent decision support** in a single unified system.
 
+**Hackathon:** Applied Artificial Intelligence Innovation Challenge 2026 (AIIC 2026)  
+
 **Project Duration:** February 2026 - March 31, 2026  
-**Contributors:** Banyar Htet Naung(Horo), Tin Aung Yin (Tin), Pyae Sone Htut (Patrick), Kyaw Swar Hein.
+
+**Team:** Team Decipher
+
+**Contributors:** Banyar Htet Naung (Horo), Tin Aung Yin (Tin), Pyae Sone Htut (Patrick), Kyaw Swar Hein  
+
 
 ---
 
@@ -158,7 +164,7 @@ Insights & Decisions
 
 ## Project Context
 
-Developed during a hackathon in March 2026, RIOS represents a full-stack system that combines **AI, analytics, and real-world business logic** into a deployable concept.
+Developed during the Applied Artificial Intelligence Innovation Challenge 2026 (AIIC 2026) Hackathon on March 31, 2026, RIOS represents a full-stack system that combines AI, analytics, and real-world business logic into a deployable concept.
 
 ---
 
