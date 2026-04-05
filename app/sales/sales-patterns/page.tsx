@@ -22,7 +22,6 @@ import {
   BackendRow,
   buildSearchParams,
   fetchBackendJson,
-  getBackendBaseUrl,
   pickArray,
   pickNumber,
   pickString,
@@ -165,7 +164,6 @@ export default function SalesTrendsPage() {
 
 function SalesTrendsPageContent() {
   const searchParams = useSearchParams();
-  const baseUrl = getBackendBaseUrl();
   const [rangeState, setRangeState] = useState<RangeKey>(
     () => getValidOption(searchParams.get("range"), ranges, "month"),
   );
@@ -471,7 +469,7 @@ function SalesTrendsPageContent() {
         <div className="rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
           <p className="font-semibold">Sales analytics service unavailable</p>
           <p className="mt-2">
-            Start the backend at <code>{baseUrl}</code> or set <code>NEXT_PUBLIC_API_BASE_URL</code>.
+            The sales backend is currently unavailable. Try again once the service is back online.
           </p>
         </div>
       ) : chartData.length === 0 ? (

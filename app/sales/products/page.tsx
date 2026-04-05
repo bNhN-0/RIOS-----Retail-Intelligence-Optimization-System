@@ -15,7 +15,6 @@ import {
   type InventoryFilterOption,
   type StockItem,
 } from "@/features/inventory/services/inventoryExplorerApi";
-import { getBackendBaseUrl } from "@/lib/api/riosBackend";
 import {
   fetchProductSalesAnalytics,
   type ProductSalesAnalytics,
@@ -91,7 +90,6 @@ function buildProductCatalogItems(
 }
 
 export default function ProductPerformancePage() {
-  const baseUrl = getBackendBaseUrl();
   const [search, setSearch] = useState("");
   const [selectedBrand, setSelectedBrand] = useState(DEFAULT_FILTER_VALUE);
   const [selectedCategory, setSelectedCategory] = useState(DEFAULT_FILTER_VALUE);
@@ -384,7 +382,7 @@ export default function ProductPerformancePage() {
             <div className="mt-4 rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
               <p className="font-semibold">Product catalog unavailable</p>
               <p className="mt-2">
-                Start the backend at <code>{baseUrl}</code> or set <code>NEXT_PUBLIC_API_BASE_URL</code>.
+                The sales backend is currently unavailable. Try again once the service is back online.
               </p>
             </div>
           ) : catalogItems.length === 0 ? (

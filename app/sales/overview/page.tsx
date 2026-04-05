@@ -29,7 +29,6 @@ export default function SalesOverviewPage() {
   const [timeframe, setTimeframe] = useState<Timeframe>("day");
   const {
     anchorDate,
-    baseUrl,
     categories,
     categoriesByParent,
     fetchError,
@@ -328,7 +327,7 @@ export default function SalesOverviewPage() {
         <div className="rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
           <p className="font-semibold">Sales data service unavailable</p>
           <p className="mt-2">
-            Start the backend at <code>{baseUrl}</code> or set <code>NEXT_PUBLIC_API_BASE_URL</code>.
+            The sales backend is currently unavailable. Try again once the service is back online.
           </p>
         </div>
       ) : salesData.length === 0 ? (

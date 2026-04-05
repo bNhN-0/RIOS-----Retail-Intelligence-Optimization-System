@@ -85,7 +85,6 @@ export function InventoryValuePieSection() {
   const {
     analyticsError,
     backgroundError: analyticsBackgroundError,
-    baseUrl,
     charts,
     isFetching: analyticsIsFetching,
     loading: analyticsLoading,
@@ -177,7 +176,7 @@ export function InventoryValuePieSection() {
           <div className="rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
             <p className="font-semibold">Inventory mix unavailable</p>
             <p className="mt-2">
-              Start the backend at <code>{baseUrl}</code> or set <code>NEXT_PUBLIC_API_BASE_URL</code>.
+              The inventory backend is currently unavailable. Try again once the service is back online.
             </p>
           </div>
         ) : chartData.length > 0 ? (
@@ -237,7 +236,7 @@ export function InventoryValuePieSection() {
             <div className="rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
               <p className="font-semibold">Inventory shelf ratio unavailable</p>
               <p className="mt-2">
-                Start the backend at <code>{baseUrl}</code> or set <code>NEXT_PUBLIC_API_BASE_URL</code>.
+                The inventory backend is currently unavailable. Try again once the service is back online.
               </p>
             </div>
           ) : shelfRatioData.length > 0 ? (

@@ -137,12 +137,10 @@ function MetricSkeletonGrid({ count }: { count: number }) {
 
 function StandardMetricsPanel({
   analyticsError,
-  baseUrl,
   loading,
   metrics,
 }: {
   analyticsError: string | null;
-  baseUrl: string;
   loading: boolean;
   metrics: InventoryMetric[];
 }) {
@@ -159,7 +157,7 @@ function StandardMetricsPanel({
       <div className="rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
         <p className="font-semibold">Inventory overview metrics unavailable</p>
         <p className="mt-2">
-          Start the backend at <code>{baseUrl}</code> or set <code>NEXT_PUBLIC_API_BASE_URL</code>.
+          The inventory backend is currently unavailable. Try again once the service is back online.
         </p>
       </div>
     );
@@ -187,7 +185,6 @@ function normalizeCustomDayInput(value: string) {
 function FeaturedKpiPanel({
   activeFilter,
   analyticsError,
-  baseUrl,
   dayInput,
   isFetching,
   loading,
@@ -198,7 +195,6 @@ function FeaturedKpiPanel({
 }: {
   activeFilter: InventoryRateDayFilter;
   analyticsError: string | null;
-  baseUrl: string;
   dayInput: string;
   isFetching: boolean;
   loading: boolean;
@@ -277,7 +273,7 @@ function FeaturedKpiPanel({
           <div className="rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
             <p className="font-semibold">Rate KPIs unavailable</p>
             <p className="mt-2">
-              Start the backend at <code>{baseUrl}</code> or set <code>NEXT_PUBLIC_API_BASE_URL</code>.
+              The inventory backend is currently unavailable. Try again once the service is back online.
             </p>
           </div>
         ) : null}
@@ -303,14 +299,12 @@ export function OverviewMetricsGrid() {
   const {
     analyticsError: staticAnalyticsError,
     backgroundError: staticBackgroundError,
-    baseUrl: staticBaseUrl,
     loading: staticLoading,
     metrics: standardMetrics,
   } = useInventoryStaticKpiData();
   const {
     analyticsError: rateAnalyticsError,
     backgroundError: rateBackgroundError,
-    baseUrl: rateBaseUrl,
     isFetching: rateIsFetching,
     loading: rateLoading,
     metrics: rateMetrics,
@@ -351,7 +345,6 @@ export function OverviewMetricsGrid() {
       <div className="grid gap-4 xl:grid-cols-[minmax(0,3fr)_minmax(24rem,2fr)]">
         <StandardMetricsPanel
           analyticsError={staticAnalyticsError}
-          baseUrl={staticBaseUrl}
           loading={staticLoading}
           metrics={standardMetrics}
         />
@@ -359,7 +352,6 @@ export function OverviewMetricsGrid() {
         <FeaturedKpiPanel
           activeFilter={activeRateFilter}
           analyticsError={rateAnalyticsError}
-          baseUrl={rateBaseUrl}
           dayInput={dayInput}
           isFetching={rateIsFetching}
           loading={rateLoading}

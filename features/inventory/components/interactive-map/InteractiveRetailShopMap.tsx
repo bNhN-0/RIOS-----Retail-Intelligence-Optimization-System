@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/card";
 import { formatCurrencyTHB } from "@/lib/formatters/currency";
 import {
-  getBackendBaseUrl,
+  getBackendRequestUrl,
   pickArray,
   normalizeRows,
   pickNumber,
@@ -72,7 +72,6 @@ const VALID_SHELF_STATUSES = new Set([
   "healthy",
   "high_turnover",
 ]);
-const SHELF_API_BASE_URL = getBackendBaseUrl();
 
 function formatPercent(value: number) {
   return `${value.toFixed(1)}%`;
@@ -203,11 +202,10 @@ function normalizeShelfSalesDistribution(
 
 async function fetchDirectShelfJson(
   path: string,
-  baseUrl: string,
   signal?: AbortSignal,
 ): Promise<{ data: unknown; error: string | null }> {
   try {
-    const response = await fetch(`${baseUrl}${path}`, {
+    const response = await fetch(getBackendRequestUrl(path), {
       cache: "no-store",
       signal,
     });
@@ -253,11 +251,7 @@ async function fetchShelfSummary(
     shelfGroup === "ALL"
       ? "/shelf/analytics/summary"
       : `/shelf/analytics/summary?shelf_group=${encodeURIComponent(shelfGroup)}`;
-  const result = await fetchDirectShelfJson(
-    path,
-    SHELF_API_BASE_URL,
-    signal,
-  );
+  const result = await fetchDirectShelfJson(path, signal);
 
   if (result.error) {
     throw new Error(result.error);
@@ -272,7 +266,6 @@ async function fetchShelfDetail(
 ): Promise<ShelfDetailRow[]> {
   const result = await fetchDirectShelfJson(
     `/shelf/analytics/${encodeURIComponent(shelfGroup)}`,
-    SHELF_API_BASE_URL,
     signal,
   );
 
@@ -288,7 +281,6 @@ async function fetchShelfSalesDistribution(
 ): Promise<ShelfSalesDistribution[]> {
   const result = await fetchDirectShelfJson(
     "/shelf/analytics/sales-distribution",
-    SHELF_API_BASE_URL,
     signal,
   );
 

@@ -56,7 +56,6 @@ function getScoreToneClass(value: number) {
 
 export default function InventoryExplorerContent() {
   const {
-    baseUrl,
     backgroundError,
     brandOptions,
     categoryOptionLabels,
@@ -179,7 +178,7 @@ export default function InventoryExplorerContent() {
       <div className="rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900 dark:border-amber-800 dark:bg-amber-950/35 dark:text-amber-200">
         <p className="font-semibold">Inventory data service unavailable</p>
         <p className="mt-2">
-          Start the backend at <code>{baseUrl}</code> or set <code>NEXT_PUBLIC_API_BASE_URL</code>.
+          The inventory backend is currently unavailable. Try again once the service is back online.
         </p>
       </div>
     );

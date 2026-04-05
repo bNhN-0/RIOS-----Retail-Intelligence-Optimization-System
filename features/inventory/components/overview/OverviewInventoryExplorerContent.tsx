@@ -38,7 +38,6 @@ export function OverviewInventoryExplorerContent() {
     setSort,
     sort,
     sortOptions,
-    baseUrl,
   } = useOverviewInventoryExplorerModel();
   const rangeStart = items.length === 0 ? 0 : (displayPage - 1) * pageSize + 1;
   const rangeEnd = items.length === 0 ? 0 : (displayPage - 1) * pageSize + items.length;
@@ -93,7 +92,7 @@ export function OverviewInventoryExplorerContent() {
       <div className="rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
         <p className="font-semibold">Inventory data service unavailable</p>
         <p className="mt-2">
-          Start the backend at <code>{baseUrl}</code> or set <code>NEXT_PUBLIC_API_BASE_URL</code>.
+          The inventory backend is currently unavailable. Try again once the service is back online.
         </p>
       </div>
     );
