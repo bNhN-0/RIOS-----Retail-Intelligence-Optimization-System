@@ -1,0 +1,67 @@
+{
+  "Metadata": {
+    "title": "RIOS",
+    "description": "零售智能优化系统"
+  },
+  "Home": {
+    "badge": "零售智能优化系统",
+    "title": "由需求与行为信号驱动的零售智能",
+    "workspacesLabel": "工作区",
+    "workspacesTitle": "选择你需要的工作区。",
+    "modules": {
+      "summary": "AI决策引擎",
+      "sales": "销售分析",
+      "inventory": "库存控制",
+      "cba": "顾客行为分析",
+      "staff": "员工运营"
+    }
+  },
+  "Navigation": {
+    "home": "首页",
+    "zoomOut": "缩小",
+    "zoomIn": "放大"
+  },
+  "Language": {
+    "label": "选择语言",
+    "en": "English",
+    "th": "ไทย",
+    "ja": "日本語",
+    "zhCN": "简体中文"
+  },
+  "Sales": {
+    "analytics": "销售分析",
+    "openMenu": "打开销售菜单",
+    "closeMenu": "关闭销售菜单",
+    "tabs": {
+      "overview": "概览",
+      "productPerformance": "产品表现",
+      "salesPatterns": "销售模式",
+      "alertsInsights": "提醒与洞察"
+    }
+  },
+  "Inventory": {
+    "title": "库存",
+    "subtitle": "管理系统",
+    "openMenu": "打开库存菜单",
+    "closeMenu": "关闭库存菜单",
+    "tabs": {
+      "overview": "概览",
+      "productExplorer": "产品探索",
+      "stockHealth": "库存健康",
+      "shelfExplorer": "货架探索",
+      "recommendations": "建议",
+      "replenishment": "补货",
+      "advancedInsights": "高级洞察"
+    }
+  },
+  "CBA": {
+    "title": "顾客行为分析",
+    "headerTitle": "基于目标检测信号的行为洞察",
+    "headerDescription": "了解客流、互动、停留以及按区域划分的顾客行为。",
+    "tabs": {
+      "overview": "概览",
+      "visionFeed": "视觉动态",
+      "conversion": "转化"
+    }
+  }
+}

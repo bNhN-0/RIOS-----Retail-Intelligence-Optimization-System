@@ -1,0 +1,67 @@
+{
+  "Metadata": {
+    "title": "RIOS",
+    "description": "小売インテリジェンス最適化システム"
+  },
+  "Home": {
+    "badge": "小売インテリジェンス最適化システム",
+    "title": "需要と行動シグナルで動く小売インテリジェンス",
+    "workspacesLabel": "ワークスペース",
+    "workspacesTitle": "必要なワークスペースを選択してください。",
+    "modules": {
+      "summary": "AI意思決定エンジン",
+      "sales": "販売分析",
+      "inventory": "在庫管理",
+      "cba": "顧客行動分析",
+      "staff": "スタッフ運用"
+    }
+  },
+  "Navigation": {
+    "home": "ホーム",
+    "zoomOut": "ズームアウト",
+    "zoomIn": "ズームイン"
+  },
+  "Language": {
+    "label": "言語を選択",
+    "en": "English",
+    "th": "ไทย",
+    "ja": "日本語",
+    "zhCN": "简体中文"
+  },
+  "Sales": {
+    "analytics": "販売分析",
+    "openMenu": "販売メニューを開く",
+    "closeMenu": "販売メニューを閉じる",
+    "tabs": {
+      "overview": "概要",
+      "productPerformance": "商品パフォーマンス",
+      "salesPatterns": "販売パターン",
+      "alertsInsights": "アラートとインサイト"
+    }
+  },
+  "Inventory": {
+    "title": "在庫",
+    "subtitle": "管理システム",
+    "openMenu": "在庫メニューを開く",
+    "closeMenu": "在庫メニューを閉じる",
+    "tabs": {
+      "overview": "概要",
+      "productExplorer": "商品エクスプローラー",
+      "stockHealth": "在庫健全性",
+      "shelfExplorer": "棚エクスプローラー",
+      "recommendations": "推奨",
+      "replenishment": "補充",
+      "advancedInsights": "高度なインサイト"
+    }
+  },
+  "CBA": {
+    "title": "顧客行動分析",
+    "headerTitle": "物体検知シグナルによる行動インテリジェンス",
+    "headerDescription": "来店数、相互作用、手に取る動き、ゾーン別の購買行動を把握します。",
+    "tabs": {
+      "overview": "概要",
+      "visionFeed": "ビジョンフィード",
+      "conversion": "コンバージョン"
+    }
+  }
+}

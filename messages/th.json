@@ -1,0 +1,67 @@
+{
+  "Metadata": {
+    "title": "RIOS",
+    "description": "ระบบวิเคราะห์และเพิ่มประสิทธิภาพค้าปลีก"
+  },
+  "Home": {
+    "badge": "ระบบวิเคราะห์และเพิ่มประสิทธิภาพค้าปลีก",
+    "title": "ข้อมูลค้าปลีกอัจฉริยะจากสัญญาณอุปสงค์และพฤติกรรมลูกค้า",
+    "workspacesLabel": "เวิร์กสเปซ",
+    "workspacesTitle": "เลือกเวิร์กสเปซที่คุณต้องการใช้งาน",
+    "modules": {
+      "summary": "AI Decision Engine",
+      "sales": "การวิเคราะห์การขาย",
+      "inventory": "การควบคุมสินค้าคงคลัง",
+      "cba": "การวิเคราะห์พฤติกรรมลูกค้า",
+      "staff": "การปฏิบัติงานพนักงาน"
+    }
+  },
+  "Navigation": {
+    "home": "หน้าแรก",
+    "zoomOut": "ซูมออก",
+    "zoomIn": "ซูมเข้า"
+  },
+  "Language": {
+    "label": "เลือกภาษา",
+    "en": "English",
+    "th": "ไทย",
+    "ja": "日本語",
+    "zhCN": "简体中文"
+  },
+  "Sales": {
+    "analytics": "การวิเคราะห์การขาย",
+    "openMenu": "เปิดเมนูการขาย",
+    "closeMenu": "ปิดเมนูการขาย",
+    "tabs": {
+      "overview": "ภาพรวม",
+      "productPerformance": "ประสิทธิภาพสินค้า",
+      "salesPatterns": "รูปแบบการขาย",
+      "alertsInsights": "การแจ้งเตือนและข้อมูลเชิงลึก"
+    }
+  },
+  "Inventory": {
+    "title": "สินค้าคงคลัง",
+    "subtitle": "ระบบจัดการ",
+    "openMenu": "เปิดเมนูสินค้าคงคลัง",
+    "closeMenu": "ปิดเมนูสินค้าคงคลัง",
+    "tabs": {
+      "overview": "ภาพรวม",
+      "productExplorer": "สำรวจสินค้า",
+      "stockHealth": "สุขภาพสต็อก",
+      "shelfExplorer": "สำรวจชั้นวาง",
+      "recommendations": "คำแนะนำ",
+      "replenishment": "เติมสินค้า",
+      "advancedInsights": "ข้อมูลเชิงลึกขั้นสูง"
+    }
+  },
+  "CBA": {
+    "title": "การวิเคราะห์พฤติกรรมลูกค้า",
+    "headerTitle": "ข้อมูลเชิงพฤติกรรมจากสัญญาณการตรวจจับวัตถุ",
+    "headerDescription": "ทำความเข้าใจการเข้าใช้ การโต้ตอบ การหยิบถือ และพฤติกรรมลูกค้าตามโซน",
+    "tabs": {
+      "overview": "ภาพรวม",
+      "visionFeed": "ฟีดภาพ",
+      "conversion": "คอนเวอร์ชัน"
+    }
+  }
+}

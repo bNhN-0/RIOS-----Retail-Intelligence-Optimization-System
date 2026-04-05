@@ -1,0 +1,108 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --vh: 100%;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --vh: 100vh;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+.animate-fadeInUp {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100dvh;
+  overflow-x: hidden;
+  overscroll-behavior-y: none;
+ 
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  flex-direction: column;
+}
+
+footer {
+    position: sticky;
+    top: 100vh;
+}
+
+.dark .dashboard-theme .bg-white {
+  background-color: rgb(15 23 42) !important;
+}
+
+.dark .dashboard-theme .bg-gray-50,
+.dark .dashboard-theme .bg-slate-50 {
+  background-color: rgb(30 41 59) !important;
+}
+
+.dark .dashboard-theme .bg-gray-100,
+.dark .dashboard-theme .bg-slate-100,
+.dark .dashboard-theme .bg-indigo-50 {
+  background-color: rgb(51 65 85) !important;
+}
+
+.dark .dashboard-theme .border,
+.dark .dashboard-theme .border-gray-100,
+.dark .dashboard-theme .border-gray-200,
+.dark .dashboard-theme .border-slate-200,
+.dark .dashboard-theme .border-slate-300 {
+  border-color: rgb(51 65 85) !important;
+}
+
+.dark .dashboard-theme .text-gray-900,
+.dark .dashboard-theme .text-gray-800,
+.dark .dashboard-theme .text-slate-900,
+.dark .dashboard-theme .text-slate-800 {
+  color: rgb(241 245 249) !important;
+}
+
+.dark .dashboard-theme .text-gray-700,
+.dark .dashboard-theme .text-gray-600,
+.dark .dashboard-theme .text-slate-700,
+.dark .dashboard-theme .text-slate-600 {
+  color: rgb(203 213 225) !important;
+}
+
+.dark .dashboard-theme .text-gray-500,
+.dark .dashboard-theme .text-gray-400,
+.dark .dashboard-theme .text-slate-500,
+.dark .dashboard-theme .text-slate-400 {
+  color: rgb(148 163 184) !important;
+}
+
+.dark .dashboard-theme .hover\:bg-gray-50:hover,
+.dark .dashboard-theme .hover\:bg-gray-100:hover,
+.dark .dashboard-theme .hover\:bg-slate-50:hover,
+.dark .dashboard-theme .hover\:bg-slate-100:hover {
+  background-color: rgb(51 65 85) !important;
+}
+
+.dark .dashboard-theme .shadow-sm,
+.dark .dashboard-theme .shadow,
+.dark .dashboard-theme .shadow-lg,
+.dark .dashboard-theme .shadow-xl {
+  box-shadow: 0 10px 30px rgba(2, 6, 23, 0.35) !important;
+}

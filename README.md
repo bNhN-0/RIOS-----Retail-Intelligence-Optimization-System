@@ -1,0 +1,1 @@
+RIOS is an intelligent retail system that combines a Demand Prediction Engine (DPE) and Customer Behaviour Analysis (CBA) to deliver real-time insights, reduce inefficiencies, and maximize sales performance. It uses computer vision and object detection to understand in-store customer interactions and optimize product placement.

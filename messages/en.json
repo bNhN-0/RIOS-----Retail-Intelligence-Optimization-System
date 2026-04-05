@@ -1,0 +1,67 @@
+{
+  "Metadata": {
+    "title": "RIOS",
+    "description": "Retail Intelligence Optimization System"
+  },
+  "Home": {
+    "badge": "Retail Intelligence Optimization System",
+    "title": "Retail Intelligence Powered by Demand and Behavior Signals.",
+    "workspacesLabel": "Workspaces",
+    "workspacesTitle": "Choose the workspace you need.",
+    "modules": {
+      "summary": "AI Decision Engine",
+      "sales": "Sales Analytics",
+      "inventory": "Inventory Control",
+      "cba": "Customer Behavior",
+      "staff": "Staff Operations"
+    }
+  },
+  "Navigation": {
+    "home": "Home",
+    "zoomOut": "Zoom out",
+    "zoomIn": "Zoom in"
+  },
+  "Language": {
+    "label": "Select language",
+    "en": "English",
+    "th": "Thai",
+    "ja": "Japanese",
+    "zhCN": "Simplified Chinese"
+  },
+  "Sales": {
+    "analytics": "Sales Analytics",
+    "openMenu": "Open sales menu",
+    "closeMenu": "Close sales menu",
+    "tabs": {
+      "overview": "Overview",
+      "productPerformance": "Product Performance",
+      "salesPatterns": "Sales Patterns",
+      "alertsInsights": "Alerts & Insights"
+    }
+  },
+  "Inventory": {
+    "title": "Inventory",
+    "subtitle": "Management System",
+    "openMenu": "Open inventory menu",
+    "closeMenu": "Close inventory menu",
+    "tabs": {
+      "overview": "Overview",
+      "productExplorer": "Product Explorer",
+      "stockHealth": "Stock Health",
+      "shelfExplorer": "Shelf Explorer",
+      "recommendations": "Recommendations",
+      "replenishment": "Replenishment",
+      "advancedInsights": "Advanced Insights"
+    }
+  },
+  "CBA": {
+    "title": "Customer Behaviour Analysis",
+    "headerTitle": "Behavior intelligence from object detection signals",
+    "headerDescription": "Understand traffic, interactions, holdings, and zone-level shopper behavior.",
+    "tabs": {
+      "overview": "Overview",
+      "visionFeed": "Vision Feed",
+      "conversion": "Conversion"
+    }
+  }
+}
