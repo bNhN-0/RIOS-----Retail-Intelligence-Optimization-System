@@ -10,15 +10,17 @@
 
 <br /><br />
 
-<img alt="Next.js" src="https://img.shields.io/badge/Next.js_16-App_Router-111111?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-<img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-Service_Layer-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-<img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-Analytics_Data-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
-<img alt="YOLO" src="https://img.shields.io/badge/YOLO-Behavior_Detection-111827?style=for-the-badge" />
-<img alt="OpenCV" src="https://img.shields.io/badge/OpenCV-Vision_Pipeline-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
-<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-Strictly_Typed-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-<img alt="React Query" src="https://img.shields.io/badge/TanStack_Query-Server_State-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" />
-<img alt="AI Reporting" src="https://img.shields.io/badge/AI-Reporting_+_Recommendations-0F766E?style=for-the-badge" />
-<img alt="Computer Vision" src="https://img.shields.io/badge/Computer_Vision-Behavior_Detection-1D4ED8?style=for-the-badge" />
+<p align="center">
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-Analytics_Dashboard-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-Backend_Engine-10B981?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-Behavioral_Data_Store-334155?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img alt="YOLO" src="https://img.shields.io/badge/YOLO-Real_Time_Detection-0F172A?style=for-the-badge" />
+  <img alt="OpenCV" src="https://img.shields.io/badge/OpenCV-Vision_Pipeline-6366F1?style=for-the-badge&logo=opencv&logoColor=white" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-Scalable_UI-2563EB?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img alt="NLP" src="https://img.shields.io/badge/NLP-Context_Insights-06B6D4?style=for-the-badge" />
+  <img alt="Reporting" src="https://img.shields.io/badge/Reporting-Insights_&_Actions-14B8A6?style=for-the-badge" />
+  <img alt="Computer Vision" src="https://img.shields.io/badge/Computer_Vision-Behavior_Analytics-3B82F6?style=for-the-badge" />
+</p>
 
 <br /><br />
 
@@ -825,7 +827,7 @@ That direction is what makes RIOS meaningful beyond the hackathon.
 
 ## 17. Links
 
-- Repository: https://github.com/bNhN-0/RIOS-----Retail-Intelligence-Optimization-System
+- Repository: [Repository](https://github.com/bNhN-0/RIOS-----Retail-Intelligence-Optimization-System)
 - Frontend Demo: [Demo](https://rios-retail-intelligence-optimizati-one.vercel.app/)
 
 ---
@@ -833,3 +835,13 @@ That direction is what makes RIOS meaningful beyond the hackathon.
 <div align="center">
   <sub>RIOS is a systems project about making retail behavior visible, measurable, and actionable.</sub>
 </div>
+
+
+## 📚 References
+
+- Akram, M., Behlim, S. I., Kamal, H., & Khan, M. M. (2025).  
+  *Customer Object Interaction Analytics in Retail Using YOLOv5 Object Detection*.  
+  International Journal of Multidisciplinary Conference Proceedings (IJMCP), 2(1).  
+  https://doi.org/10.61503/Ijmcp.v2i1
+
+This project is inspired by research in computer vision-based retail analytics, particularly in modeling customer–product interactions at the shelf level.
