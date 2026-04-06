@@ -950,7 +950,29 @@ RIOS was built around that missing layer. By connecting computer vision outputs 
 </table>
 </p>
 
-  
+<h3 align="center">📸 Hackathon Moments</h3>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="assets/hackathon/team.jpg" width="350"/>
+    </td>
+    <td align="center">
+      <img src="assets/hackathon/group.jpg" width="350"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="assets/hackathon/work.jpg" width="350"/>
+    </td>
+    <td align="center">
+      <img src="assets/hackathon/badge.jpg" width="350"/>
+    </td>
+  </tr>
+</table>
+
+
+
 RIOS was developed during AIIC 2026 as a full-stack retail intelligence system that connects shelf-level customer behavior with analytics, inventory state, and dashboard-driven decision support. The goal was not only to detect activity in front of a product, but to make that activity useful in a business setting.
 
 ### Beyond Journey's End
