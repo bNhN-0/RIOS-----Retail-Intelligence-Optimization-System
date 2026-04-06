@@ -339,14 +339,12 @@ System architecture and workflows are documented to provide a clear view of how 
       Recharts<br />
       TanStack Query<br />
       Interactive dashboards<br />
-      State-driven analytics views
     </td>
     <td valign="top" width="25%">
       <strong>AI Layer</strong><br /><br />
       YOLO / Ultralytics<br />
       OpenCV<br />
       Context-based reporting<br />
-      Recommendation workflows
     </td>
     <td valign="top" width="25%">
       <strong>Systems Architecture</strong><br /><br />
@@ -387,37 +385,29 @@ System architecture and workflows are documented to provide a clear view of how 
 
 ## 7. Demo Surface
 
-<div align="center">
-  <p>
-    Replace the preview slots below with at least one real dashboard screenshot or GIF.<br />
-    A single strong visual, especially for CBA or the heatmap view, substantially improves how the system reads.
-  </p>
-</div>
-
 <table>
   <tr>
     <td align="center" width="50%">
       <strong>Dashboard Preview</strong><br /><br />
-      <sub>Add screenshot: <code>docs/screenshots/rios-dashboard-overview.png</code></sub>
+      <img src="assets/rios-workspaces.png" width="100%" />
     </td>
     <td align="center" width="50%">
       <strong>Vision / Heatmap Preview</strong><br /><br />
-      <sub>Add GIF or screenshot: <code>docs/screenshots/rios-cba-vision.gif</code></sub>
+      <img src="assets/rios-cba.png" width="100%" />
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
       <strong>Sales Analytics Preview</strong><br /><br />
-      <sub>Add screenshot: <code>docs/screenshots/rios-sales-workspace.png</code></sub>
+      <img src="assets/rios-sales.png" width="100%" />
     </td>
     <td align="center" width="50%">
       <strong>Inventory / Replenishment Preview</strong><br /><br />
-      <sub>Add screenshot: <code>docs/screenshots/rios-inventory-workspace.png</code></sub>
+      <img src="assets/rios-inv.png" width="100%" />
     </td>
   </tr>
 </table>
 
-If you want the README to render with real visuals, place assets in a `docs/screenshots/` directory and replace the placeholders above with standard Markdown image tags.
 
 ---
 
