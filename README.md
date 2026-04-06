@@ -614,7 +614,7 @@ Validation losses at best epoch:
   <tr>
     <td align="center" width="50%">
       <a href="https://pub-25619183a3f34aeb96e2eb9c6221ec60.r2.dev/test.mp4">
-        <img src="assets/gif/est_bn2.gif" width="100%" />
+        <img src="assets/gif/test_bn.gif" width="100%" />
       </a>
       <br /><sub>Test - BN2</sub>
     </td>
@@ -899,20 +899,43 @@ RIOS was built around that missing layer. By connecting computer vision outputs 
 
 <br />
 
-**Contributors**
+<h2 align="center"> Contributors</h2>
 
-- Banyar Htet Naung (Horo)
-- Tin Aung Yin (Tin)
-- Pyae Sone Htut (Patrick)
-- Kyaw Swar Hein
+<p align="center">
+  <i>Team: 3 ICT · 1 International Business</i><br/><br/>
 
+  <b>Banyar Htet Naung (Horo)</b><br/>
+  <a href="https://github.com/bNhN-0">
+    <img src="https://img.shields.io/badge/GitHub-bNhN--0-181717?logo=github&logoColor=white"/>
+  </a>
+
+  <b>Tin Aung Yin (Andrey)</b><br/>
+  <a href="https://github.com/lionknight-96">
+    <img src="https://img.shields.io/badge/GitHub-lionknight--96-181717?logo=github&logoColor=white"/>
+  </a>
+
+  <b>Pyae Sone Htut (Patrick)</b><br/>
+  <a href="https://www.linkedin.com/in/pyae-sone-htut-5479ab335/">
+    <img src="https://img.shields.io/badge/LinkedIn-Patrick-0A66C2?logo=linkedin&logoColor=white"/>
+  </a>
+
+  <b>Kyaw Swar Hein</b><br/>
+  <a href="https://github.com/Paradox-9007">
+    <img src="https://img.shields.io/badge/GitHub-Paradox--9007-181717?logo=github&logoColor=white"/>
+  </a>
+
+</p>
+
+  
 RIOS was developed during AIIC 2026 as a full-stack retail intelligence system that connects shelf-level customer behavior with analytics, inventory state, and dashboard-driven decision support. The goal was not only to detect activity in front of a product, but to make that activity useful in a business setting.
 
 ### Beyond Journey's End
 
-The competition ended on March 31, 2026, but the project did not stop there in spirit. What remained valuable was not only the result, but the process: defining a real problem, turning incomplete ideas into a working system, and learning how to build across computer vision, application services, analytics, and product design under time pressure.
+The competition ended on March 31, 2026. We didn’t place, but we built something real.
 
-RIOS was never just a submission artifact. It became a starting point for thinking more seriously about how intelligent systems should behave in real operational environments.
+Under time pressure and uncertainty, we took a vague idea and turned it into a working system — combining computer vision, backend services, analytics, and product thinking along the way.
+
+RIOS didn’t end as a submission. It became a starting point for how we think about building systems that actually make sense in real environments.
 
 ---
 
