@@ -167,46 +167,138 @@ RIOS was designed to make pre-purchase behavior measurable and useful. It turns 
 
 ```mermaid
 flowchart LR
-    A[Camera / In-Store Feed] --> B[Computer Vision Layer]
-    B --> C[Behavior Signals]
-    C --> D[Application Services]
-    D --> E[Retail Data Layer]
-    E --> F[Operational Dashboards]
-    F --> G[Insights and Recommendations]
+
+    %% INPUT
+    subgraph A["Input Sources"]
+        A1["Camera / IoT Feed"]
+        A2["Sales Transactions - POS"]
+        A3["Inventory & Shelf Data"]
+    end
+
+    %% CV
+    subgraph B["Computer Vision Layer"]
+        B1["YOLO Detection"]
+        B2["Event Extraction"]
+    end
+
+    subgraph C["Behavior Events"]
+        C1["Touch"]
+        C2["Hold"]
+        C3["No Interaction"]
+        C4["Item Removed"]
+    end
+
+    %% BACKEND
+    subgraph D["Backend Services"]
+        D1["FastAPI APIs"]
+        D2["Data Processing"]
+        D3["Business Logic"]
+    end
+
+    %% DATA
+    subgraph E["Retail Data Layer"]
+        E1["PostgreSQL"]
+        E2["Processed Analytics Data"]
+    end
+
+    %% INTELLIGENCE
+    subgraph F["Intelligence Layer"]
+        F1["NLP Scoring"]
+        F2["Demand Scoring"]
+        F3["Inventory Scoring"]
+        F4["Priority Scoring"]
+        F5["AI Reporting"]
+    end
+
+    %% DASHBOARDS
+    subgraph G["CBA Workspace"]
+        G1["Live Vision"]
+    end
+
+    subgraph H["Sales Analytics Workspace"]
+        H1["Revenue Metrics"]
+    end
+
+    subgraph I["Inventory Control Workspace"]
+        I1["Stock Status"]
+    end
+
+    J["Insights & Recommendations"]
+
+    %% FLOW
+    A1 --> B1 --> B2 --> C1
+    B2 --> C2
+    B2 --> C3
+    B2 --> C4
+
+    C1 --> D1
+    C2 --> D1
+    C3 --> D1
+    C4 --> D1
+
+    A2 --> D1
+    A3 --> D1
+
+    D1 --> D2 --> D3 --> E1 --> E2
+
+    E2 --> F1
+    E2 --> F2
+    E2 --> F3
+
+    F1 --> F4
+    F2 --> F4
+    F3 --> F4
+
+    F4 --> F5
+
+    F5 --> G1 --> J
+    F5 --> H1 --> J
+    F5 --> I1 --> J
+
+    %% STYLES
+    classDef input fill:#E3F2FD,stroke:#1E88E5,color:#000;
+    classDef cv fill:#E8F5E9,stroke:#43A047,color:#000;
+    classDef backend fill:#FFF3E0,stroke:#FB8C00,color:#000;
+    classDef data fill:#ECEFF1,stroke:#546E7A,color:#000;
+    classDef ai fill:#F3E5F5,stroke:#8E24AA,color:#000;
+    classDef dash fill:#E0F7FA,stroke:#00ACC1,color:#000;
+    classDef output fill:#FBE9E7,stroke:#F4511E,color:#000;
+
+    class A1,A2,A3 input;
+    class B1,B2,C1,C2,C3,C4 cv;
+    class D1,D2,D3 backend;
+    class E1,E2 data;
+    class F1,F2,F3,F4,F5 ai;
+    class G1,H1,I1 dash;
+    class J output;
 ```
 
 </div>
 
-RIOS is designed as an end-to-end retail intelligence system that converts physical in-store activity into decision-ready information.
+RIOS is designed as an end-to-end retail intelligence system that converts physical in-store activity into decision-ready insights.
 
 ### Architecture Workflow
 
-1. Camera feeds capture shelf-facing customer activity.
-2. The computer vision layer classifies behaviors such as touch, hold, item removed, and no interaction.
-3. Those signals are processed through application services that normalize, aggregate, and align them with retail context.
-4. The data layer connects behavior signals with inventory, performance, and business metrics.
-5. Dashboard interfaces present the output in a form that supports monitoring, analysis, and action.
-6. Insight workflows convert those signals into summaries, patterns, and business-facing recommendations.
+1. Camera feeds capture real-time customer activity at the shelf level.
+2. The computer vision layer detects and classifies behaviors such as touch, hold, item removal, and no interaction.
+3. These behavior signals are sent to backend services, where they are cleaned, structured, and enriched with business context.
+4. The data layer integrates behavior data with:
+     - sales transactions (POS)
+     - inventory and shelf data
+5. The processed data is transformed into analytics features and metrics, forming a unified view of store activity.
+6. The intelligence layer applies:
+     - NLP scoring
+     - Demand scoring
+     - Inventory scoring
+   
+These are combined into a priority scoring system.
+
+7. The AI insight layer generates summaries, patterns, and recommendations based on these signals.
+8. Results are delivered through dashboard workspaces, enabling monitoring, analysis, and action across different functions.
 
 ### What The Architecture Enables
 
-<table>
-  <tr>
-    <td valign="top" width="33%">
-      <strong>Behavior to KPI Mapping</strong><br /><br />
-      Interaction events can be interpreted against revenue, demand, and stock state.
-    </td>
-    <td valign="top" width="33%">
-      <strong>Cross-Functional Visibility</strong><br /><br />
-      Merchandising, operations, and inventory teams work from the same signal chain.
-    </td>
-    <td valign="top" width="33%">
-      <strong>Faster Response Loops</strong><br /><br />
-      Teams can identify missed conversion, stock pressure, or layout issues earlier.
-    </td>
-  </tr>
-</table>
-
+<table> <tr> <td valign="top" width="33%"> <strong>Behavior to KPI Mapping</strong><br /><br /> Customer interactions at the shelf are directly linked to revenue, demand signals, and inventory state. </td> <td valign="top" width="33%"> <strong>Cross-System Integration</strong><br /><br /> Combines POS data, inventory data, and behavior signals into a unified decision layer. </td> <td valign="top" width="33%"> <strong>Proactive Decision Making</strong><br /><br /> Identifies issues like low conversion, stock gaps, or placement problems before revenue is lost. </td> </tr> </table>
 ---
 
 ## 5. System Access
