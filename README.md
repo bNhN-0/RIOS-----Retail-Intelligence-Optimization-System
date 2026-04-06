@@ -9,17 +9,24 @@
 <sub>From shelf interaction to business decision pipeline</sub>
 
 <br /><br />
-
 <p align="center">
-  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-Analytics_Dashboard-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-Backend_Engine-10B981?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-Behavioral_Data_Store-334155?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img alt="YOLO" src="https://img.shields.io/badge/YOLO-Real_Time_Detection-0F172A?style=for-the-badge" />
-  <img alt="OpenCV" src="https://img.shields.io/badge/OpenCV-Vision_Pipeline-6366F1?style=for-the-badge&logo=opencv&logoColor=white" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-Scalable_UI-2563EB?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img alt="NLP" src="https://img.shields.io/badge/NLP-Context_Insights-06B6D4?style=for-the-badge" />
-  <img alt="Reporting" src="https://img.shields.io/badge/Reporting-Insights_&_Actions-14B8A6?style=for-the-badge" />
-  <img alt="Computer Vision" src="https://img.shields.io/badge/Computer_Vision-Behavior_Analytics-3B82F6?style=for-the-badge" />
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-Analytics_Dashboard-111827?style=for-the-badge&logo=nextdotjs&logoColor=white&labelColor=000000" />
+  
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-Backend_Engine-34D399?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=065F46" />
+  
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-Behavioral_Data_Store-64748B?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=1E293B" />
+  
+  <img alt="YOLO" src="https://img.shields.io/badge/YOLO-Real_Time_Detection-1F2937?style=for-the-badge&labelColor=020617" />
+  
+  <img alt="OpenCV" src="https://img.shields.io/badge/OpenCV-Vision_Pipeline-818CF8?style=for-the-badge&logo=opencv&logoColor=white&labelColor=312E81" />
+  
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-Scalable_UI-3B82F6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=1E40AF" />
+  
+  <img alt="NLP" src="https://img.shields.io/badge/NLP-Context_Insights-22D3EE?style=for-the-badge&labelColor=0E7490" />
+  
+  <img alt="AI Integration" src="https://img.shields.io/badge/AI_Integration-Insights_%26_Actions-2DD4BF?style=for-the-badge&labelColor=134E4A" />
+  
+  <img alt="Computer Vision" src="https://img.shields.io/badge/Computer_Vision-Behavior_Analytics-60A5FA?style=for-the-badge&labelColor=1E3A8A" />
 </p>
 
 <br /><br />
@@ -55,7 +62,7 @@
 
 ## 1. System Overview
 
-<table>
+<table align="center">
   <tr>
     <td valign="top" width="58%">
       RIOS is an end-to-end retail intelligence system built around a simple gap in most store analytics: retailers usually know <strong>what sold</strong>, but they do not know <strong>what customers considered, touched, held, removed, or ignored before purchase</strong>.
@@ -78,7 +85,7 @@ Traditional POS systems and dashboards are effective at recording completed tran
 
 What they usually fail to explain is lost intent before checkout.
 
-<table>
+<table align="center">
   <tr>
     <th align="left">Blind Spot</th>
     <th align="left">Operational Consequence</th>
@@ -599,7 +606,7 @@ Validation losses at best epoch:
 <table>
   <tr>
     <td align="center" width="50%">
-      <a href="https://pub-25619183a3f34aeb96e2eb9c6221ec60.r2.dev/test_bn2.mp4">
+      <a href="https://pub-25619183a3f34aeb96e2eb9c6221ec60.r2.dev/test.mp4">
         <img src="assets/gif/test_bn2.gif" width="100%" />
       </a>
       <br /><sub>Test - BN</sub>
@@ -613,7 +620,7 @@ Validation losses at best epoch:
   </tr>
   <tr>
     <td align="center" width="50%">
-      <a href="https://pub-25619183a3f34aeb96e2eb9c6221ec60.r2.dev/test.mp4">
+      <a href="https://pub-25619183a3f34aeb96e2eb9c6221ec60.r2.dev/test_bn2.mp4">
         <img src="assets/gif/test_bn.gif" width="100%" />
       </a>
       <br /><sub>Test - BN2</sub>
@@ -904,26 +911,43 @@ RIOS was built around that missing layer. By connecting computer vision outputs 
 <p align="center">
   <i>Team: 3 ICT · 1 International Business</i><br/><br/>
 
-  <b>Banyar Htet Naung (Horo)</b><br/>
-  <a href="https://github.com/bNhN-0">
-    <img src="https://img.shields.io/badge/GitHub-bNhN--0-181717?logo=github&logoColor=white"/>
-  </a>
+<table align="center">
+  <tr>
+    <td align="center">
+      <b>Banyar Htet Naung (Horo)</b><br/>
+      <a href="https://github.com/bNhN-0">
+        <img src="https://img.shields.io/badge/GitHub-bNhN--0-181717?style=flat&logo=github&logoColor=white"/>
+      </a>
+    </td>
+  </tr>
 
-  <b>Tin Aung Yin (Andrey)</b><br/>
-  <a href="https://github.com/lionknight-96">
-    <img src="https://img.shields.io/badge/GitHub-lionknight--96-181717?logo=github&logoColor=white"/>
-  </a>
+  <tr>
+    <td align="center">
+      <b>Tin Aung Yin (Andrey)</b><br/>
+      <a href="https://github.com/lionknight-96">
+        <img src="https://img.shields.io/badge/GitHub-lionknight--96-181717?style=flat&logo=github&logoColor=white"/>
+      </a>
+    </td>
+  </tr>
 
-  <b>Pyae Sone Htut (Patrick)</b><br/>
-  <a href="https://www.linkedin.com/in/pyae-sone-htut-5479ab335/">
-    <img src="https://img.shields.io/badge/LinkedIn-Patrick-0A66C2?logo=linkedin&logoColor=white"/>
-  </a>
+  <tr>
+    <td align="center">
+      <b>Pyae Sone Htut (Patrick)</b><br/>
+      <a href="https://www.linkedin.com/in/pyae-sone-htut-5479ab335/">
+        <img src="https://img.shields.io/badge/LinkedIn-Patrick-0A66C2?style=flat&logo=linkedin&logoColor=white"/>
+      </a>
+    </td>
+  </tr>
 
-  <b>Kyaw Swar Hein</b><br/>
-  <a href="https://github.com/Paradox-9007">
-    <img src="https://img.shields.io/badge/GitHub-Paradox--9007-181717?logo=github&logoColor=white"/>
-  </a>
-
+  <tr>
+    <td align="center">
+      <b>Kyaw Swar Hein</b><br/>
+      <a href="https://github.com/Paradox-9007">
+        <img src="https://img.shields.io/badge/GitHub-Paradox--9007-181717?style=flat&logo=github&logoColor=white"/>
+      </a>
+    </td>
+  </tr>
+</table>
 </p>
 
   
