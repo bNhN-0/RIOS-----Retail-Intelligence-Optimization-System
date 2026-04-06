@@ -325,7 +325,7 @@ System architecture and workflows are documented to provide a clear view of how 
 
 ## 6. Tech Stack
 
-<table>
+<table align="center">
   <tr>
     <td valign="top" width="25%">
       <strong>Frontend</strong><br /><br />
@@ -358,7 +358,7 @@ System architecture and workflows are documented to provide a clear view of how 
 
 ### Frontend Workspaces
 
-<table>
+<table align="center">
   <tr>
     <th align="left">Workspace</th>
     <th align="left">Role</th>
@@ -385,7 +385,7 @@ System architecture and workflows are documented to provide a clear view of how 
 
 ## 7. Demo Surface
 
-<table>
+<table align="center">
   <tr>
     <td align="center" width="50%">
       <strong>Dashboard Preview</strong><br /><br />
@@ -419,7 +419,7 @@ RIOS uses a **behavior-focused dataset built under real constraints**, designed 
 
 Due to limited access to large-scale retail datasets, the training data was **collected manually in real environments**, including Makro and similar retail store settings.
 
-<table>
+<table align="center">
   <tr>
     <th align="left">Dataset Property</th>
     <th align="left">Detail</th>
@@ -477,7 +477,7 @@ These classes were chosen to better reflect **customer intent**, rather than gen
 
 The dataset was split at the **video level** to reduce leakage across similar scenes:
 
-<table>
+<table align="center">
   <tr>
     <th align="left">Split</th>
     <th align="left">Videos</th>
@@ -524,7 +524,7 @@ The vision component was trained using a **YOLO-based pipeline (Ultralytics)**, 
 
 ### Training Setup
 
-<table>
+<table align="center">
   <tr>
     <th align="left">Training Element</th>
     <th align="left">Detail</th>
@@ -596,6 +596,36 @@ Validation losses at best epoch:
 
 > **Most importantly, model quality is evaluated by how reliably it produces usable behavior signals for the system, not just raw accuracy.**
 
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://pub-25619183a3f34aeb96e2eb9c6221ec60.r2.dev/test_bn2.mp4">
+        <img src="assets/gif/test_bn2.gif" width="100%" />
+      </a>
+      <br /><sub>Test - BN</sub>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://pub-25619183a3f34aeb96e2eb9c6221ec60.r2.dev/test_ksh.mp4">
+        <img src="assets/gif/test_ksh.gif" width="100%" />
+      </a>
+      <br /><sub>Test - KSH</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://pub-25619183a3f34aeb96e2eb9c6221ec60.r2.dev/test.mp4">
+        <img src="assets/gif/est_bn2.gif" width="100%" />
+      </a>
+      <br /><sub>Test - BN2</sub>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://pub-25619183a3f34aeb96e2eb9c6221ec60.r2.dev/test_tin.mp4">
+        <img src="assets/gif/test_tin.gif" width="100%" />
+      </a>
+      <br /><sub>Test - Tin</sub>
+    </td>
+  </tr>
+</table>
 ---
 
 ### Current Limitations
