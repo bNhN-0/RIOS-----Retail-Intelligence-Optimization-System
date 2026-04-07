@@ -39,6 +39,7 @@
 &nbsp;&nbsp;|&nbsp;&nbsp;
 <a href="#9-model-training-and-results">Model Training and Results</a>
 &nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="#11-run-locally">Run Locally</a>
 
 </div>
 
